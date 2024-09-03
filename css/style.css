@@ -6573,7 +6573,9 @@ button.bg-dark:focus {
 .d-none {
   display: none !important;
 }
-
+.d-mv {
+  display: block !important;
+}
 .d-inline {
   display: inline !important;
 }
@@ -7392,6 +7394,9 @@ button.bg-dark:focus {
 }
 
 @media (min-width: 992px) {
+  .d-mv {
+    display: none !important;
+  }
   .float-lg-left {
     float: left !important;
   }
